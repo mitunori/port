@@ -1,0 +1,292 @@
+
+@media screen and (max-width:500px){
+
+/*共通
+----------------------*/
+
+body{
+	width:100%;
+}
+
+#wrapper{
+	width:100%;
+	overflow: hidden;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.width_inner{
+	width:100%;
+}
+
+
+.inner{
+	width: 100%;
+  height: 100%; 
+}
+
+
+/*文字関連
+--------------*/
+.common_h3_a{
+	width:100%;
+}
+
+
+
+/*ヘッダー
+-------------*/
+.logo {
+    padding-top: 17px;
+    float: none;
+    text-align: center;
+}
+
+
+.header_inner_a{
+	padding-top:5px;
+	text-align: center;
+	height: auto;
+}
+
+.header_btn_link{
+	position: static;
+	margin-top: 8px;
+}
+
+.header_btn_link li {
+    width: 50%;
+    height: 34px;
+    overflow: hidden;
+}
+
+
+.header_btn_link li + li {
+    margin-left: 0;
+}
+
+.header_btn_link li　img{
+	width:100%;
+}
+
+
+
+.header_text_intro {
+    float: none;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+
+
+/*gnavi メニュー
+-------------*/
+
+#nav{
+	display: none;
+}
+
+
+/*スライドショー
+--------------*/
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+	width:100%;
+}
+
+
+.banner_area {
+   height: auto;
+   padding: 5px 0;
+}
+
+.banner li {
+    float: left;
+    margin-left: 0;
+    width: 20%;
+}
+
+
+/*日数　条件から探す
+-----------------*/
+.outer_conditions_box {
+    height: auto;
+}
+
+.conditions_list li:nth-child(odd){
+	po
+}
+
+
+/*ピックアップ
+-----------------*/
+.pink_box {
+    height: auto;
+    padding-bottom: 3%;
+}
+
+
+.list_roop{
+	margin-left:-2%;
+}
+
+.list_roop li {
+    float: left;
+    margin-left: 2%;
+    width: 48%;
+    overflow: hidden;
+}
+
+/*年齢確認
+--------------*/
+.age_box {
+    width: 95%;
+    height: auto;
+    background: none;
+}
+
+.age_list {
+	margin-left:-2%;
+  width: auto;
+}
+
+.age_list li {
+    float: left;
+    margin-left: 2%;
+}
+
+
+.age_list li:nth-child(1) {
+    width: 48%;
+}
+
+.age_list li:nth-child(2) {
+    width: 48%;
+}
+
+/*一押し情報
+-----------------*/
+
+.chatty {
+    width: 100%;
+    height: auto;
+    padding: 50px 0 10px;
+}
+
+.chatty_box{
+	width:100%;
+	height: 100%;
+}
+
+.titl_chatty {
+    position: absolute;
+    top: -70px;
+    right: 0;
+}
+
+
+.chatty_list li:nth-child(1) {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    margin-top: 35px;
+}
+
+
+.chatty_list li:nth-child(2) {
+    width: 100%;
+    float: none;
+    padding: 10px;
+}
+
+/*フッターメニュー
+---------------*/
+.f_menu{
+	width:100%;
+	display: none;
+}
+
+
+
+/*シングルページ
+---------------*/
+.singl_area {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.single_outer {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+}
+
+.single_info_box{
+	  border-bottom: 1px dotted #ccc;
+    margin-bottom: 30px;
+}
+
+.social_box {
+    float: right;
+    height: 40px;
+    overflow: hidden;
+}
+
+
+.data {
+    margin-bottom: 10px;
+}
+
+
+/*サイド　コンテンツ
+----------------*/
+.side_box {
+    float: none;
+    margin-left: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.side_outer_box {
+    margin-bottom: 20px;
+}
+
+
+.side_img_box {
+    width: 30%;
+}
+
+.side_text_box {
+    float: left;
+    width: 68%;
+    margin-left: 2%;
+}
+
+.banner_box img{
+	width:100%;
+}
+
+
+/*お問い合わせ・利用規約
+--------------*/
+
+.contact_inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contat_title {
+    font-size: 20px;
+}
+
+.contact_text {
+    margin-bottom: 50px;
+}
