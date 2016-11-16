@@ -1,0 +1,50 @@
+/*全体
+-----------------*/
+body{
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+	line-height: 1.7;
+	font-size: 13px;
+	font-size:0.8125rem;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img{
+		vertical-align: middle;
+}
+
+
+#wrapper{
+	overflow: hidden;
+}
+
+/*共通
+----------------*/
+
+
+
+
+
+
+
+
+
+/*clearfix
+-----------------*/
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+} 
